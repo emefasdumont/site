@@ -1,0 +1,237 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 5px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: #f5eede;
+}
+#banner {
+    width: 100%;
+    height: 100%;
+    /* ALINHAMENTO DO BANNER*/
+    align-items: center;
+    align-content: center;
+}
+
+#logotipo {
+    /* TAMANHO DO LOGOTIPO */
+    width: 400px;
+    height: 400px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 20px;
+    /* ALINHAMENTO DO LOGO*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#menu {
+    /* COR DE FUNDO */
+    background-color: #f5ef7e;
+    /* BORDA DO MENU SUPERIOR E INFERIOR */
+    border-top: 10px solid #f4ed6c;
+    border-bottom: 10px solid #f4ed6c;
+
+    /* ESPAÇAMENTO DO CONTEÚDO DO MENU */
+    padding: 10px;
+    /* MARGEM INFERIOR */
+    margin-bottom: 20px;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 4 COLUNAS */
+    grid-template-columns: repeat(7, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* ALINHAR OS ELEMENTOS NO CENTRO */
+    text-align: center;
+}
+
+#menu a{
+    /* COR DOS LINKS */
+    color: #471e47;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* REMOVER SUBLINHADO */
+    text-decoration: none;
+    /* ESPAÇAMENTO ENTRE OS LINKS  */
+    padding: 10px;
+    /* FONTE */
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.capa {
+    display: grid;
+    justify-content: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+#terc {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+.gestao {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+}
+
+.fotos {
+
+        display: grid;
+
+        /* ALINHAMENTO HORIZONTAL */
+        justify-content: center;
+
+        /* ALINHAMENTO VERTICAL */
+        align-items: center;
+
+        text-align: center;
+}
+
+.tecnica {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    /* ALINHAMENTO*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.fotosterceirizadas {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(2, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    /* ALINHAMENTO*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.professores {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    /* ALINHAMENTO*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#linksfb {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(3, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    /* ALINHAMENTO*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#linksfb a{
+    text-decoration: none;
+    color:black;
+}
+#fotos2 {
+    display: grid;
+
+        /* ALINHAMENTO HORIZONTAL */
+        justify-content: center;
+
+        /* ALINHAMENTO VERTICAL */
+        align-items: center;
+
+        text-align: center;
+}
+#emailft {
+    width: 40%;
+    height: 40%;
+    /* ALINHAMENTO HORIZONTAL */
+    justify-content: center;
+
+    /* ALINHAMENTO VERTICAL */
+    align-items: center;
+}
+.rodape {
+    /* COR DE FUNDO */
+    background-color: #9eb1cf;
+    /* ALTURA */
+    height: 100px;
+    /* COR  */
+    color: #1d283b;
+    /* FONTE */
+    font-family: sans-serif;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: flex;
+    /* JUSTIFICAR NA HORIZONTAL */    
+    justify-content: center;
+    /* JUSTIFICAR NA VERTICAL */ 
+    align-items: center;
+    /* ALINHAMENTO*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+h1{
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: justify;
+}
+.sobre p{
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: justify;
+}
+.terceirizados p{
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: justify;
+}
+.ensino-remoto p{
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: justify;
+}
+.contato p{
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: justify;
+}
+li {
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: justify;
+}
